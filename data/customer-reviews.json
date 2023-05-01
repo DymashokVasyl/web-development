@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "avatar": "./images/client-img1.png",
+    "name": "Joy Moark",
+    "response": "now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancynow use Lorem Ipsum as their default model text,"
+  },
+  {
+    "id": 2,
+    "avatar": "./images/client-img2.png",
+    "name": "Mihacal",
+    "response": "now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancynow use Lorem Ipsum as their default model text,"
+  },
+  {
+    "id": 3,
+    "avatar": "./images/client-img3.png",
+    "name": "Uliya den",
+    "response": "now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancynow use Lorem Ipsum as their default model text,"
+  },
+  {
+    "id": 4,
+    "avatar": "./images/client-img1.png",
+    "name": "Joy Moark-1",
+    "response": "now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancynow use Lorem Ipsum as their default model text,"
+  }
+]

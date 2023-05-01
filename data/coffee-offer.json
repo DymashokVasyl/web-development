@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "TYPES OF COFFEE",
+    "description": "looking at its layout. The point of",
+    "image": "./images/img-1.png"
+  },
+  {
+    "id": 2,
+    "title": "BEAN VARIETIES",
+    "description": "looking at its layout. The point of",
+    "image": "./images/img-2.png"
+  },
+  {
+    "id": 3,
+    "title": "COFFEE & PASTRY",
+    "description": "looking at its layout. The point of",
+    "image": "./images/img-3.png"
+  },
+  {
+    "id": 4,
+    "title": "COFFEE TO GO",
+    "description": "looking at its layout. The point of",
+    "image": "./images/img-4.png"
+  },
+  {
+    "id": 5,
+    "title": "TYPES OF COFFEE D",
+    "description": "looking at its layout. The point of",
+    "image": "./images/img-1.png"
+  }
+]

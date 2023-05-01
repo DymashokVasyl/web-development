@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "./images/blog-img1.png",
+    "datePosted": "05 April",
+    "title": "PREP TECHNIQUES Coffee",
+    "description": "distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more"
+  } ,
+  {
+    "id": 2,
+    "image": "./images/blog-img2.png",
+    "datePosted": "15 April",
+    "title": "How to make coffee",
+    "description": "distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more",
+    "url": "#"
+  },
+
+  {
+    "id": 3,
+    "image": "./images/blog-img2.png",
+    "datePosted": "01 May",
+    "title": "How to make coffee Terst",
+    "description": "distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more",
+    "url": "#"
+  }
+]
