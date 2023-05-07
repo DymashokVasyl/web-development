@@ -9,7 +9,7 @@
 
 * {
     box-sizing: border-box !important;
-    transition: ease all 0.5s;
+    transition: all 0.3s ease-in-out;
 }
 
 html {
@@ -221,6 +221,14 @@ button {
 }
 .header_bg .navbar-expand-lg .navbar-nav .nav-link {
     color: #ffffff;
+}
+
+.header_bg .navbar-expand-lg .login_bt li a {
+    color: #ffffff;
+}
+
+.header_bg .navbar-expand-lg .login_bt li a:hover {
+    color: #4c4c4c;
 }
 
 .bg-light {
@@ -777,7 +785,7 @@ button {
     background-color: #efefef;
     padding: 11px 20px;
     margin-top: 20px;
-    border-radius: 40px;
+    border-radius: 5px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -791,11 +799,11 @@ input.mail_text::placeholder {
     height: 110px;
     font-size: 18px;
     background-color: #efefef;
-    padding: 40px 20px 0px 20px;
+    padding: 11px 20px 0px 20px;
     border: 0px;
     height: 110px;
     margin-top: 20px;
-    border-radius: 40px;
+    border-radius: 5px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -1025,6 +1033,63 @@ textarea#comment.update_mail::placeholder {
 .margin_top90 {
     margin-top: 90px;
 }
+
+/*Modal*/
+
+.modal-header .modal-title{
+    font-size: 20px;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+}
+
+.modal-input {
+    width: 100%;
+    font-size: 16px;
+    color: #2e2e2d;
+    border: 0px;
+    background-color: #efefef;
+    padding: 11px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.modal-delimetr {
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 0.5rem;
+}
+
+.modal-delimetr:before,
+.modal-delimetr:after {
+    content: '';
+    position: absolute;
+    width: 45%;
+    height: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #e9ecef;
+}
+
+.modal-delimetr:before {
+    left: 0;
+}
+
+.modal-delimetr:after {
+    right: 0;
+}
+
+.register-link {
+    text-align: center;
+}
+
+
+
+
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 

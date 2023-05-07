@@ -3,7 +3,23 @@ $(function () {
 
 	$( document ).ready(function() {
 		$(function(){
-			$("#header-navbar").load("./components/header.html");
+			$("#header-navbar").load("./components/header.html", ()=>{
+				if (parseInt(localStorage.getItem('login'))) {
+					let  customerInfo = JSON.parse(localStorage.getItem('customer'));
+					$('#customer-menu').html(`
+						<a href="#" id="logout"><span class="user_icon"><i class="fa fa-user" aria-hidden="true"></i></span>${customerInfo.name}</a>
+					`)
+				}
+
+				$('#logout').on('click', ()=> {
+					localStorage.setItem('login', 0);
+					localStorage.setItem('customer', JSON.stringify({}));
+
+					$('#customer-menu').html(`
+						<a href="#" data-toggle="modal" data-target="#loginModal"><span class="user_icon"><i class="fa fa-user" aria-hidden="true"></i></span>Login</a>
+				`	)
+				})
+			});
 		});
 
 		if ($('#coffee-offer__items').length) {
@@ -95,6 +111,21 @@ $(function () {
 				});
 			});
 		}
+
+		$('#login').on('click', ()=> {
+			$(".login-form").validate()
+			if ($(".login-form").valid()) {
+				$('#loginModal').modal('hide')
+				// set the item in localStorage
+				localStorage.setItem('login', 1);
+				localStorage.setItem('customer', JSON.stringify(
+					{
+						name: $('#customer-name').val(),
+					}
+				));
+			}
+		})
+
 	});
 
 });
